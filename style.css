@@ -1,0 +1,96 @@
+body {
+    background-image: url("Media/background.jpg");
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+}
+
+#docs {
+    display: none;
+}
+
+#docs.dis {
+    display: block;
+}
+
+#p {
+    display: block;
+}
+
+#p.dis {
+    display: none;
+}
+
+.box {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: black 1px solid;
+    resize: none;
+    width: 60vw;
+    height: 89vh;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+
+.box:focus {
+    outline: none;
+}
+
+#send {
+    background-color: #14192D;
+    color: white;
+    border: 1px white solid;
+    width: 8vw;
+    margin-top: 2vh;
+    height: 5vh;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+#send:hover {
+    background-color: #2b355b;
+}
+
+#edit {
+    background-color: #14192D;
+    color: white;
+    border: 1px white solid;
+    width: 8vw;
+    margin-top: 2vh;
+    height: 5vh;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+#edit:hover {
+    background-color: #2b355b;
+}
+
+#pin {
+    background-color: white;
+    border: black 1px solid;
+    font-weight: bold;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+
+#pin:focus {
+    outline: none;
+}
+
+#pb {
+    background-color: #14192D;
+    color: white;
+    border: 1px white solid;
+    width: 8vw;
+    margin-top: 30vh;
+    height: 5vh;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+#pb:hover {
+    background-color: #2b355b;
+}
